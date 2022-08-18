@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>创协用对外搜索网站</h1>
+        <style type="text/css">
+            
+        </style>
+    </head>
+	<head>
+		<meta charset="utf-8">
+		<title>创协用对外搜索网站</title>
+		<style type="text/css">
+			
+			form .text {
+				display: inline-block;
+				border: 0;
+				width: 260px;
+				height: 35px;
+				font-size: 14px;
+				outline: none;
+				
+				border: 2px solid #0e0e0e;
+			}
+			
+			form .search {
+				
+				width: 90px;
+				height: 38px;
+				border: 0;
+				outline: none;
+				cursor: pointer;
+				/*   cursor: pointer;   鼠标悬停或点击时button时鼠标变成其他图标  */
+				text-align: center;
+				line-height: 40px;
+				background-color: #060606;
+				color: #FFFFFF;
+			}
+            * {
+            margin: 0;
+            padding: 0;
+        }
+         
+        html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            background: url(images/background.jpg) no-repeat 0px 0px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+        }
+         
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+         
+        #loginDiv {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: rgba(241, 247, 247, 0.993);
+            box-shadow: 7px 7px 17px rgba(4, 4, 4, 0.4);
+            border-radius: 300px;
+        }
+         
+        #loginDiv:hover{  
+           filter: grayscale(60%);
+        }  
+ 
+        input{
+            text-align: center;
+            border:none; 
+            background-color: rgba(237, 239, 247, 0.96);
+            border-bottom:1px solid rgb(3, 3, 3);
+            width: 200px;
+            
+        }
+ 
+        #L_login {
+            border-color: cornsilk;
+            background-color: rgba(9, 9, 9, 0.8);
+            color: aliceblue;
+            border-style: hidden;
+            border-radius: 5px;
+            width: 100px;
+            height: 31px;
+            font-size: 16px;
+        }
+ 
+        #L_register {
+            border-color: cornsilk;
+            background-color: rgba(10, 10, 10, 0.8);
+            color: aliceblue;
+            border-style: hidden;
+            border-radius: 5px;
+            width: 100px;
+            height: 31px;
+            font-size: 16px;
+        }
+        body{background-image: url(https://file06.16sucai.com/2016/0328/6f62e4d400b2c5a78d54d4876e5e2511.jpg);background-size: 100%;}
+		</style>
+	</head>
+	<body>
+        
+		
+		<form target="_blank" method="get" action="https://www.baidu.com/s">
+			<input type="text" placeholder="请输入关键词" name="word" class="text" />
+			<input type="submit" value="搜索" class="search">
+		</form>
+	</body>
+</html>
